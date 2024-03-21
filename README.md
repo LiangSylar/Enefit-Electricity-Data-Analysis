@@ -1,4 +1,4 @@
-Enefit-Electricity-Data-Analysis
+# Enefit-Electricity-Data-Analysis
 
 Energy imbalance, denoting a mismatch between produced energy and actual demands, directly leads to energy waste. Forecasting energy consumption is a crucial aspect of resolving energy imbalance. Enefit Electricity data is collected to address the data imbalance issue in real applications. Raw data comes in a collection of 7 files in the form of time series, where the biggest file has more than 3 million records. After preprocessing the data, a data exploration stage by Tableau revealed a distinct correlation between weather conditions and electricity consumption. The forecasting of time series data is achieved by adapting LSTM and deep learning models. Separate models are used for different counties (locations) to enable more accurate forecasting. Results show that replacing the linear prediction head in LSTM with ResNet18 improves the predicting performance. 
 
